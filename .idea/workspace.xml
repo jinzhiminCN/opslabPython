@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/tools/uuid.py" line="10" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1da39c0-0639-4e08-94bd-1036c202978b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stu/File/FileLineCount.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stu/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stu/File/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stu/JVM/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stu/cmd/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stu/logger/__init__.py" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\APIHelper.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\man.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\APIHelper.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\File\FileTime.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\File\ListCWDFile.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\File\ReadWriteFile.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\File\listDir_oswalk.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\GetArgsFromCommandLine.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\BeautifulSoup_Demo.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\BeautifulSoup_amend.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\BeautifulSoup_amend_append.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\BeautifulSoup_amend_string.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\BeautifulSoup_append_tag.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\BeautifulSoup_find.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\BeautifulSoup_iter.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\BeautifulSoup_string.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\BeautifulSoup_tag_clear.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\BeautifulSoup_tag_insert.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\BeautifulSoup_wrap.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\HP_HandleSpecilTag.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\HP_ParserURLFromHTML.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\HP_firstDemo.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\SG_demo2.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\SG_firstDemo.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\URLParser.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\checkURL404.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\getQzoneBlogList.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\getURL_urllib.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\getURL_urllib2.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\httplib_demo.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\urllib2_cookie.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\urllib2_debuglog.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\urllib2_httpheader.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\urllib2_httpstatus.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\urllib2_isRedirect.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\urllib2_proxy.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\urllibExtend.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\HTML\urlretrieveDemo.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\XML\DOM_Parser.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\XML\DOM_Parser.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\XML\SAX_Parser.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\and_or.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\checkEncoding.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\cmd\GetArgsForm_sys.argv.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\cmd\GetArgsFromCommandLine.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\cmd\GetArgsFrom_optget.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\defineClass.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\defineFunction.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\filterTest.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\multitask\forking_01.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\multitask\thread_01.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\multitask\thread_02.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\multitask\thread_03_lock.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\multitask\threading_01.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\multitask\threading_02.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\multitask\threading_03.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\multitask\threading_condition.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\multitask\threading_join.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\reduceTest.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\socketdemo\CGI_envr.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\socketdemo\CGI_first.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\socketdemo\CGI_get.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\socketdemo\SimpleClient.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\socketdemo\SimpleServer.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\socketdemo\Simple_TCP_Client.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\socketdemo\Simple_TCP_Server.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\socketdemo\Simple_UDP_Client.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\socketdemo\Simple_UDP_Server.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\socketdemo\queryDNS.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\socketdemo\queryIP.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\stu\wc.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\tools\dict.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\tools\password\1.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\PythonStu\tools\password\shit.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\QDataHandle\22.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\QDataHandle\handletables.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\QDataHandle\renametable.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\.idea\dictionaries\Administrator.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\.idea\killshell.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\.idea\other.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\.idea\testrunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\.idea\vagrant.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\main.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\plus\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\plus\all_Sensitive_keywords.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\plus\php_Dynamic_function.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\plus\php_array_map.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\plus\php_call_user_func.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\plus\php_ddos_cc.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\plus\php_eval_assert.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\plus\php_include_file.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\plus\php_packshell.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\plus\php_preg_replace.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\plus\php_zendencode.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\SeayFindShell\tmp\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\cmdline\demo.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\logger\info.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\logger\main.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\logger\module\Logger.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\logger\module\ThreadProcess.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\logger\module\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\logger\module\process.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\qdata\CreateTableAsSelect.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\qdata\createindex.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\selenium\demo.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\selenium\login.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\tools\uuid.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\tunna\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\tunna\conn.aspx" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\tunna\conn.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\tunna\conn.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\tunna\metasploit\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\tunna\metasploit\conn.aspx" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\tunna\metasploit\conn.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\tunna\metasploit\conn.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\tunna\metasploit\tunna_exploit.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\tunna\proxy.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\tunna\proxy.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\python\unicom\yxjscn.txt" afterPath="" />
+      <change type="MOVED" beforePath="C:\workspace\python\.idea\python.iml" afterPath="$PROJECT_DIR$/.idea/Python.iml" />
+      <change type="MOVED" beforePath="C:\workspace\python\tools\UUID.py" afterPath="$PROJECT_DIR$/tools/uuid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sheet/Menu.py" afterPath="$PROJECT_DIR$/sheet/Menu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/ScanPort.py" afterPath="$PROJECT_DIR$/tools/ScanPort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unicom/Update_YXJSCN.py" afterPath="$PROJECT_DIR$/unicom/Update_YXJSCN.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unicom/__init__.py" afterPath="$PROJECT_DIR$/unicom/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sheet/conf/constant.py" afterPath="$PROJECT_DIR$/sheet/conf/constant.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sheet/start.py" afterPath="$PROJECT_DIR$/sheet/start.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unicom/text2sql.py" afterPath="$PROJECT_DIR$/unicom/text2sql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="python.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python$urlparse.coverage" NAME="urlparse Coverage Results" MODIFIED="1451012809269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
+    <SUITE FILE_PATH="coverage/python$OracleColumnComment.coverage" NAME="OracleColumnComment Coverage Results" MODIFIED="1452595140721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql" />
+    <SUITE FILE_PATH="coverage/python$HandleSheetFlow.coverage" NAME="HandleSheetFlow Coverage Results" MODIFIED="1451893412451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unicom" />
+    <SUITE FILE_PATH="coverage/python$TimeCount.coverage" NAME="TimeCount Coverage Results" MODIFIED="1451956544496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unicom" />
+    <SUITE FILE_PATH="coverage/python$UUID.coverage" NAME="UUID Coverage Results" MODIFIED="1451544600633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/python$productSheetFlowForSQL.coverage" NAME="productSheetFlowForSQL Coverage Results" MODIFIED="1452580967318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unicom" />
+    <SUITE FILE_PATH="coverage/python$download.coverage" NAME="download Coverage Results" MODIFIED="1451448078380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/pythonModuleDemo" />
+    <SUITE FILE_PATH="coverage/python$specialnum.coverage" NAME="specialnum Coverage Results" MODIFIED="1446104664849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStu/tools/unicom" />
+    <SUITE FILE_PATH="coverage/python$Update_fj.coverage" NAME="Update_fj Coverage Results" MODIFIED="1447147741208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unicom" />
+    <SUITE FILE_PATH="coverage/python$filterTest.coverage" NAME="filterTest Coverage Results" MODIFIED="1451545672317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStu/stu" />
+    <SUITE FILE_PATH="coverage/python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1447141918130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium" />
+    <SUITE FILE_PATH="coverage/python$Update_YXJSCN.coverage" NAME="Update_YXJSCN Coverage Results" MODIFIED="1447143135804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unicom" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="python" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/PythonStu/stu/file/listDir_oswalk.py" />
+        <option value="$PROJECT_DIR$/tools/renameFile.py" />
+        <option value="$PROJECT_DIR$/tools/Hashs.py" />
+        <option value="$PROJECT_DIR$/PythonStu/stu/file/renameFile.py" />
+        <option value="$PROJECT_DIR$/unicom/conf/db_complain.py" />
+        <option value="$PROJECT_DIR$/unicom/sheet.txt" />
+        <option value="$PROJECT_DIR$/unicom/HandleSheetFlow.py" />
+        <option value="$PROJECT_DIR$/stu/File/1.eh" />
+        <option value="$PROJECT_DIR$/web/www.programcreek.com.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/JVM/MigicSum.py" />
+        <option value="$PROJECT_DIR$/stu/File/ZipManager.py" />
+        <option value="$PROJECT_DIR$/stu/test_zipManager.py" />
+        <option value="$PROJECT_DIR$/stu/test_FileLineCount.py" />
+        <option value="$PROJECT_DIR$/stu/File/FileLineCount.py" />
+        <option value="$PROJECT_DIR$/stu/defineClass.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSLint" />
+    <property name="settings.editor.splitter.proportion" value="0.22820763" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="C:/Python/python27/python.exe" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntriesPython" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\python\stu" />
+      <recent name="C:\workspace\python\stu\base" />
+      <recent name="C:\workspace\python\stu\cmd" />
+      <recent name="C:\workspace\python\QDataHandle" />
+      <recent name="C:\workspace\python\stu\File" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.MigicSum">
+    <configuration default="false" name="HandleSheetFlow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python\python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unicom" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unicom/HandleSheetFlow.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestZipManager.test_unzip_file" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu/test_zipManager.py" />
+      <option name="CLASS_NAME" value="TestZipManager" />
+      <option name="METHOD_NAME" value="test_unzip_file" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_zipManager" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu/test_zipManager.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in TestFileLineCount" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu/test_FileLineCount.py" />
+      <option name="CLASS_NAME" value="TestFileLineCount" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="checkEncoding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu/checkEncoding.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MigicSum" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JVM/MigicSum.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.MigicSum" />
+      <item index="1" class="java.lang.String" itemvalue="Python.HandleSheetFlow" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestZipManager.test_unzip_file" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_zipManager" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestFileLineCount" />
+      <item index="5" class="java.lang.String" itemvalue="Python.checkEncoding" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.checkEncoding" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestFileLineCount" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_zipManager" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestZipManager.test_unzip_file" />
+        <item index="4" class="java.lang.String" itemvalue="Python.HandleSheetFlow" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1da39c0-0639-4e08-94bd-1036c202978b" name="Default" comment="" />
+      <created>1446102277204</created>
+      <updated>1446102277204</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.072916664" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15052083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34755462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29369918" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3262195" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/web/pythonModuleDemo/download.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/web/pythonModuleDemo/download.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sheet/conf/problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="138">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheet/conf/constant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/ConnectMssql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="1380">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/Update_YXJSCN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48231512" vertical-offset="0" max-vertical-offset="0">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/specialnum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheet/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/urlparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.097402595" vertical-offset="0" max-vertical-offset="0">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheet/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheet/data/login_http.request">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/uuid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/hash.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/phoneInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/www.onlinehashcrack.com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25358853" vertical-offset="0" max-vertical-offset="0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/text2sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29339853" vertical-offset="0" max-vertical-offset="0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/conf/db_departments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-129.15254" vertical-offset="0" max-vertical-offset="0">
+          <caret line="381" column="1" selection-start-line="381" selection-start-column="1" selection-end-line="381" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/conf/db_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="1877" column="46" selection-start-line="1877" selection-start-column="22" selection-end-line="1877" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/TimeCount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47122863" vertical-offset="0" max-vertical-offset="0">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/productSheetFlowForSQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/conf/db_product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/data/sheetflow.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/Hashs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="2392">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/conf/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="3542">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/conf/db_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4094">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/conf/db_complain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4420" max-vertical-offset="7314">
+          <caret line="200" column="26" selection-start-line="200" selection-start-column="26" selection-end-line="200" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/sheet.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="184">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unicom/HandleSheetFlow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1276" max-vertical-offset="2231">
+          <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/www.programcreek.com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3312">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/ConnectMssql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="1380">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/generalCodeInsertSQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/mssqltest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1955">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="1058">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/readFile2db/hpchain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/logger/info.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="634">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/logger/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="634">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheet/conf/problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="598">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheet/conf/constant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/File/FileTime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/retest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="641">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/test_zipManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="e#38#67#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/test_FileLineCount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#38#67#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/File/FileLineCount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1380">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/File/ZipManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1403">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/checkEncoding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/base/defineClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1495">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/base/defineFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/base/and_or.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="943">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/base/filterTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/base/reduceTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/JVM/MigicSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stu/cmd/GetArgsFromCommandLine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="661">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
