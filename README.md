@@ -50,6 +50,8 @@ pip install xlrd
 # chromedriver下载http://chromedriver.storage.googleapis.com/index.html
 pip install selenium
 
+# selenium可能会用到html5lib解析器
+pip install html5lib
 ```
 
 
