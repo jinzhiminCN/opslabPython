@@ -2,7 +2,7 @@
 
 """文件名和文件对象"""
 import numpy as np
-from conf import App
+from src import App
 
 file_name = App.BASE_TEMP + "numpy_result.npy"
 print(file_name)

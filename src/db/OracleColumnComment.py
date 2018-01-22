@@ -2,7 +2,9 @@
 # coding:utf-8
 
 import fileinput
-from src.conf import App
+
+from src import App
+
 """
     首先利用SQL导出表的注释信息：
     select * from user_col_comments

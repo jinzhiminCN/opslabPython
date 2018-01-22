@@ -3,7 +3,7 @@
 import pandas as pd
 import xlrd
 
-from conf import App
+from src import App
 
 """利用pandas处理excel"""
 

@@ -1,7 +1,7 @@
 # coding:utf-8
 
 import pandas as pd
-from conf import App
+from src import App
 
 """写入文件"""
 

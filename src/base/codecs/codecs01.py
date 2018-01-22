@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-
 #
 # 了解编码的最好的方式就是采用不同的编码编码统一段字符串，并查看字节序列的区别
 #
@@ -13,7 +12,7 @@ def to_hex(t, nbytes):
     hex_version = binascii.hexlify(t)
     return ' '.join(
         hex_version[start:start + chars_per_item]
-        for start in xrange(0, len(hex_version), chars_per_item)
+        for start in range(0, len(hex_version), chars_per_item)
     )
 
 

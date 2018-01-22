@@ -2,7 +2,9 @@
 # coding:utf-8
 
 import fileinput
-from src.conf import  App
+
+from src import App
+
 """
 根据文本文件生成INSERT的SQL语句
 """

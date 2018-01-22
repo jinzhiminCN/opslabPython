@@ -2,7 +2,9 @@
 # url:http://www.cnblogs.com/lhj588/archive/2011/11/09/2242483.html
 # @discription: parser xml-file with xml-dom
 from xml.dom import minidom
-from src.conf import  App
+
+from src import App
+
 
 def get_attrvalue(node, attrname):
     return node.getAttribute(attrname) if node else ''

@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-from conf import App
+from src import App
 
 """使用pandas读取完整的数据"""
 
