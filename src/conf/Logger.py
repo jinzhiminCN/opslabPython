@@ -2,7 +2,7 @@
 
 import logging
 
-from src.conf import App
+from src import App
 
 
 def logger(modeule_name):

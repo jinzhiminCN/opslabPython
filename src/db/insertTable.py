@@ -6,7 +6,8 @@ import time
 
 import pymysql
 
-from src.conf import App
+from src import App
+
 
 INSERT_SQL = "INSERT INTO tencent.%s(qid,nick,quid) VALUES "
 errorlog = open(App.BASE_TEMP + "error.log", "w", 1)

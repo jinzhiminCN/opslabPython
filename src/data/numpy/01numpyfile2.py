@@ -4,7 +4,7 @@
 
 """从文件中导入数据"""
 import numpy as np
-from conf import App
+from src import App
 
 file_name = App.BASE_TEMP + "numpy_arrry1.txt"
 
