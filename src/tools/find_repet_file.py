@@ -42,10 +42,10 @@ if __name__ == '__main__':
         for item in hash_map:
             for it in hash_map:
                 if it['hash'] == item['hash'] and it['file'] != item['file']:
-                    result[it['hash']] = "{" + it['file'] + "," + item['file'] + "}"
+                    result[it['hash']] = it['file'] + " & " + item['file']
 
         for (k, v) in result.items():
-            print(k, "\t", v.replace("\\","/"))
+            print(k+" =>"+v)
     else:
         print(parser.print_help())
 
