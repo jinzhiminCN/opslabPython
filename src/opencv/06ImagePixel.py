@@ -4,7 +4,7 @@
 """处理图像的像素"""
 
 import cv2
-from etc import setting
+from src import App
 
 
 img = cv2.imread(setting.resouce_path("/opencv/44.jpg"))

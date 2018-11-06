@@ -17,7 +17,7 @@ if __name__ == "__main__":
         table_name = "tt_data_" + str(tt)
         tt += 1
         create_table = create_sql % (table_name)
-        print create_table
+        print(create_table)
         mycur = myconn.cursor()
         mycur.execute(create_table)
         myconn.commit()

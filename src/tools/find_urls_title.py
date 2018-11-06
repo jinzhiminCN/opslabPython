@@ -2,9 +2,13 @@
 # coding=UTF-8
 # version:python3.x
 
-import re, time
+import re
 import requests
-from bs4 import BeautifulSoup
+from src import App
+
+"""
+发现一组url的title信息
+"""
 
 headers = {
     'Accept': 'image/gif, image/jpeg, image/pjpeg, image/pjpeg,*/*',
@@ -16,16 +20,17 @@ headers = {
 }
 
 rr = re.compile(r'<title>.*?</title>')
-with open("C:/Users/Administrator/Desktop/1111111111.txt") as f:
+file = App.resource_file("C:/Users/Administrator/Desktop/111.txt")
+with open(file) as f:
     for line in f:
-
-        if line.replace("\n","").endswith("html"):
-            r = requests.get(line, headers=headers)
-            if r.status_code == 200:
-                try:
-                    html = r.text.encode('iso-8859-1').decode('utf-8')
-                    title = rr.findall(html)[0]
-                    print(line.replace("\n","") +" => " +title.replace("<title>","").replace("</title>",""))
-                except  Exception as e:
-                    # print("error count :"+filepath)
-                    pass
+        line = line.strip()
+        r = requests.get(line, headers=headers)
+        if r.status_code == 200:
+            try:
+                title = rr.findall(r.text)[0]
+                print(line.replace("\n","") +" => " +title.replace("<title>","").replace("</title>",""))
+            except  Exception as e:
+                print("error count :"+e)
+                pass
+        else:
+            print(line,r.status_code)

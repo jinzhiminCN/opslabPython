@@ -4,7 +4,7 @@
 """向图像中输出文字"""
 
 import cv2
-from etc import setting
+from src import App
 
 # Load an color image in grayscale
 image = cv2.imread(setting.resouce_path("/opencv/4.jpg"), 0)

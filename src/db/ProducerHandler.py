@@ -70,7 +70,7 @@ class Handler(threading.Thread):
                     while mutex:
                         self.__file.write("recvdata")
             except IOError:
-                print "IOError"
+                print("IOError")
 
 
 if __name__ == "__main__":
@@ -79,5 +79,5 @@ if __name__ == "__main__":
     time.sleep(2)
     mutex = threading.Lock()
     result_file = open("./db2.txt", "a", 1)
-    for i in xrange(50):
+    for i in range(50):
         Handler("Thread" + str(i), queue, result_file, mutex).start()

@@ -4,8 +4,11 @@
 
 
 import cv2
+import os
+from src import App
 
-RESOURCE_PATH = "/Users/mac/workspace/opslabPython/resource"
+RESOURCE_PATH = (os.getcwd()).replace("src/opencv","resource")
+
 img = cv2.imread(RESOURCE_PATH + "/opencv/test.png")
 cv2.imshow('image', img)
 k = cv2.waitKey(0)

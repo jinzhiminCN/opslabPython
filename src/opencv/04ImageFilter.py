@@ -4,6 +4,7 @@
 
 
 import cv2 as cv
+from src import App
 
 image = cv.imread('D:/image/test.png', 0)
 cv.imshow("Original", image)

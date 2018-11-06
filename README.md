@@ -24,8 +24,17 @@ pip install pymssql
 # 安装pymysql
 pip install pymysql
 
+# 安装oracle
+pip install cx_oracle
+
+# 安装rsa
+pip install rsa
+
 # numpy matplotlib
 pip install numpy Matplotlib
+
+# pandas
+pip install pandas
 
 # opencv
 pip install opencv-python
@@ -52,6 +61,12 @@ pip install selenium
 
 # selenium可能会用到html5lib解析器
 pip install html5lib
+
+
+# opencv
+brew install gtk+
+brew install opencv3
+
 ```
 
 

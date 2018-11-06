@@ -2,7 +2,9 @@
 # coding:UTF-8
 
 import cv2
-from etc import setting
+from src import App
+
+
 from matplotlib import pyplot as plt
 
 img = cv2.imread(setting.resouce_path("/opencv/timg.jpg"), 0)

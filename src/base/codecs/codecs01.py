@@ -16,10 +16,9 @@ def to_hex(t, nbytes):
     )
 
 
-text = u'青海'
+text = '青海'
 
-print 'Raw      :', repr(text)
-print 'UTF-8    :', to_hex(text.encode('utf-8'), 1)
-print 'UTF-16   :', to_hex(text.encode('utf-16'), 2)
-print 'GBK      :', to_hex(text.encode('gbk'), 2)
-
+print('Raw      :', repr(text))
+print('UTF-8    :', to_hex(text.encode('utf-8'), 1))
+print('UTF-16   :', to_hex(text.encode('utf-16'), 2))
+print('GBK      :', to_hex(text.encode('gbk'), 2))

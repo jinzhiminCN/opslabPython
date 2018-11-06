@@ -15,4 +15,4 @@ for line in fileinput.input('c:/mysql/insert.sql'):
     input.write(sql % (insert_table, tt[0], tt[0]))
     count = count + int(tt[1])
 
-print count
+print(count)

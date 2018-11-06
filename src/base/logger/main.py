@@ -3,10 +3,10 @@
 
 
 from src.base.logger import ThreadProcess,process
-from src.conf import Logger
+from src import App
 
 if __name__ == "__main__":
-    log = Logger.logger(__name__)
+    log = App.logger(__name__)
     log.info("info")
     log.debug("debug")
     log.error("error")

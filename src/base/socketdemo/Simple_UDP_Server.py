@@ -13,6 +13,6 @@ while True:
         message, addr = s.recvfrom(1024 * 4)
         print("Get data from ", message, addr)
         s.sendto(message, addr)
-    except:
-        traceback.print_exc()
+    except Exception as err:
+        print(err)
         continue

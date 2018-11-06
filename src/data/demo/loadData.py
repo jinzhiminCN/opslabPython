@@ -5,7 +5,7 @@ from src import App
 
 """演示从文本中加载数据"""
 
-file_name = App.BASE_DATA + "/npl/affinity_dataset.txt"
+file_name = App.resource_file("/data/npl/affinity_dataset.txt")
 x = np.loadtxt(file_name)
 
 n_samples, n_features =x.shape

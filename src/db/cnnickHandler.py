@@ -11,4 +11,4 @@ try:
     finally:
         h_file.close()
 except IOError:
-    print "IOError"
+    print("IOError")

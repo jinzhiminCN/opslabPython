@@ -1,7 +1,7 @@
 # coding:utf-8
-from src.conf import Logger
+from src import App
 
 
 def run():
-    log = Logger.logger(__name__)
+    log = App.logger(__name__)
     log.info("process is running")

@@ -3,6 +3,7 @@
 
 
 import cv2
+from src import App
 
 RESOURCE_PATH = "/Users/mac/workspace/opslabPython/resource"
 
