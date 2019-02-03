@@ -137,5 +137,5 @@ def translate(text):
 
 if __name__ == '__main__':
     js = Py4Js()
-    res = translate('DiskPart verifies only that the partition is capable of containing the operating system startup files. DiskPart does not check the contents of the partition. If you mistakenly mark a partition as active and it does not contain the operating system startup files, your computer might not start.')
+    res = translate('DiskPart does not check the contents of the partition. If you mistakenly mark a partition as active and it does not contain the operating system startup files, your computer might not start.')
     print(res)

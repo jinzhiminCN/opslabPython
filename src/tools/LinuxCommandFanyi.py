@@ -37,4 +37,3 @@ for dirpath, dirname, filenames in os.walk(u"C:\workspace\mancmdline\linux-comma
         except Exception as e:
             traceback.print_exc()
 
-        break
