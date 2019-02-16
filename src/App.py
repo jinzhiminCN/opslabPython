@@ -12,6 +12,7 @@ import os
 # 设置编码
 ENCODING = "UTF-8"
 
+
 # 获取工程路径
 BASE_PATH = os.getcwd().replace("\\", "/").split("src/")[0]
 

@@ -32,7 +32,7 @@ def scan_port(port):
     try:
         client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         client.connect_ex(('127.0.0.1', port))
-        client.send(bytes("GET", encoding="utf-8"))
+        client.send(bytes("POST", encoding="utf-8"))
         data = client.recv(1024)
         print("%s:%d ->GET << %s" % ("127.0.0.1", port, data.decode('utf-8')))
         client.close()
@@ -41,17 +41,17 @@ def scan_port(port):
 
 
 if __name__ == '__main__':
-    # socket.setdefaulttimeout(10)
-    # pool = ThreadPool(processes=100)
-    # results = pool.map(scan_port, range(1000))
-    # pool.close()
-    # pool.join()
-    try:
-        client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        client.connect_ex(('127.0.0.1', 80))
-        client.send(bytes("GET", encoding="utf-8"))
-        data = client.recv(1024)
-        print("%s:%d ->GET << %s" % ("127.0.0.1", 80, data.decode('utf-8')))
-        client.close()
-    except Exception as e:
-        print(e)
+    socket.setdefaulttimeout(0.5)
+    pool = ThreadPool(processes=100)
+    results = pool.map(scan_port, range(65535))
+    pool.close()
+    pool.join()
+    # try:
+    #     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    #     client.connect_ex(('127.0.0.1', 80))
+    #     client.send(bytes("GET", encoding="utf-8"))
+    #     data = client.recv(1024)
+    #     print("%s:%d ->GET << %s" % ("127.0.0.1", 80, data.decode('utf-8')))
+    #     client.close()
+    # except Exception as e:
+    #     print(e)

@@ -56,7 +56,7 @@ class Handler(threading.Thread):
     def run(self):
         thread_name = threading.currentThread().getName()
 
-        print thread_name + " is starting..."
+        print(thread_name + " is starting...")
         while True:
             item = []
             condition.acquire()
@@ -79,10 +79,10 @@ condition = Condition()
 
 if __name__ == "__main__":
     queue = []
-    for i in xrange(40):
+    for i in range(40):
         queue.append(['download' + str(i), 'http://www.baidu.com/list' + str(i)])
     log = getLog(__name__)
-    for i in xrange(40):
+    for i in range(40):
         Handler("Thread" + str(i), queue, log).start()
         time.sleep(1)
 
