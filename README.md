@@ -70,6 +70,11 @@ pip install html5lib
 brew install gtk+
 brew install opencv3
 
+
+
+# pynput 一个控制鼠标键盘的包
+pip install pynput
+
 ```
 
 
