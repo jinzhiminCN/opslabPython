@@ -6,7 +6,7 @@ from src import App
 
 """使用pandas读取完整的数据"""
 
-df = pd.read_excel(App.BASE_DATA + "excel-comp-data.xlsx")
+df = pd.read_excel(App.resource_file("data/excel-comp-data.xlsx"))
 
 # 读取全部数据
 all_data = pd.DataFrame(df)

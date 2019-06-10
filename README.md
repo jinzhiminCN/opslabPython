@@ -30,6 +30,9 @@ pip install cx_oracle
 # 安装rsa
 pip install rsa
 
+# excel
+pip install xlrd
+
 # numpy matplotlib
 pip install numpy Matplotlib
 

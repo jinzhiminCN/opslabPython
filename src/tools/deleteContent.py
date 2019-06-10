@@ -9,7 +9,7 @@
 import  os
 import re
 
-path =u"C:\workspace\mancmdline\windows-commands"
+path =u"C:\\workspace\\mancmdline\\windows-commands"
 
 titel_partter = re.compile("---\n(.|\n)*---\n+",re.M)
 
