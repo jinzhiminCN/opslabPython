@@ -30,6 +30,9 @@ pip install cx_oracle
 # 安装rsa
 pip install rsa
 
+# excel
+pip install xlrd
+
 # numpy matplotlib
 pip install numpy Matplotlib
 
@@ -66,6 +69,11 @@ pip install html5lib
 # opencv
 brew install gtk+
 brew install opencv3
+
+
+
+# pynput 一个控制鼠标键盘的包
+pip install pynput
 
 ```
 

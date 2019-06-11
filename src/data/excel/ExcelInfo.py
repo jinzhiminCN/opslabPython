@@ -7,18 +7,15 @@ from src import App
 
 """利用pandas处理excel"""
 
-# 遍历excel的sheet
-excel_book = xlrd.open_workbook(App.BASE_DATA + "excel-comp-data.xlsx")
-for sheet in excel_book.sheets():
-    print("\t%s => " % sheet.name)
+
 
 # 遍历excel的sheet
-excel_book = xlrd.open_workbook(App.BASE_DATA + "excel-comp-sheetdata.xlsx")
+excel_book = xlrd.open_workbook(App.resource_file("data/excel-comp-sheetdata.xlsx"))
 for sheet in excel_book.sheets():
     print("\t%s => " % sheet.name)
 
 # 将excel数据导入到pandas数据框架中
-df = pd.read_excel(App.BASE_DATA + "excel-comp-data.xlsx")
+df = pd.read_excel(App.resource_file("data/excel-comp-data.xlsx"))
 
 print(type(df))
 
@@ -35,7 +32,12 @@ for name in names:
 print("=" * 80 + ">")
 print(df.name)
 
-
 excel_data = pd.DataFrame(df)
 print(excel_data)
 
+
+
+# 读取指定的sheet
+# sheetname该参数的名称可能在不同的版本中不太一致，使用时需注意
+_df = pd.read_excel(App.resource_file("data/excel-comp-sheetdata.xlsx"), sheetname="Sheet2")
+print(_df.head())
