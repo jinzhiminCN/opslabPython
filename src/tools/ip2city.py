@@ -3,13 +3,11 @@
 # version:python3.x
 # author: monsoon
 
-"""模拟linux的du命令"""
-
 
 import requests
 import json
-import traceback
 import time
+
 
 res = open('C:/Users/Administrator/Desktop/222.txt','a+')
 

