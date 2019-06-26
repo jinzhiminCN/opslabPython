@@ -108,18 +108,18 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(chrome_options=chrome_options)
     driver.maximize_window()
     driver.implicitly_wait(10)
-    driver.get('https://weibo.com/login.php')
-    driver.find_element_by_id("loginname").clear()
-    driver.find_element_by_id("loginname").send_keys(loginname)
-    driver.find_element_by_name("password").send_keys(password)
-    driver.find_element_by_css_selector('.btn_32px').click()
+    driver.get('https://m.weibo.cn/p/1006062093964404')
+    # driver.find_element_by_id("loginname").clear()
+    # driver.find_element_by_id("loginname").send_keys(loginname)
+    # driver.find_element_by_name("password").send_keys(password)
+    # driver.find_element_by_css_selector('.btn_32px').click()
     time.sleep(5)
 
-    WEIBOFILE = open("/Users/mac/weibo_daqinghai.txt", "a+", encoding='utf_8')
-    USERFILE = open("/Users/mac/weibo_daqinghai_user.txt", "a+", encoding='utf_8')
-    LOGGERFILE = open("/Users/mac/weibo_log.txt", "a+", encoding='utf_8')
+    WEIBOFILE = open("c:/weibo/weibo_daqinghai.txt", "a+", encoding='utf_8')
+    USERFILE = open("c:/weibo/weibo_daqinghai_user.txt", "a+", encoding='utf_8')
+    LOGGERFILE = open("c:/weibo/weibo_log.txt", "a+", encoding='utf_8')
 
-    driver.get("https://weibo.com/daqinghai?is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=1372#feedtop")
+    #driver.get("https://weibo.com/daqinghai?is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=1372#feedtop")
     driver.implicitly_wait(10)
     while True:
         scoll = 1000
