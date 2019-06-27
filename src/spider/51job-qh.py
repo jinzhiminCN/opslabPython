@@ -1,21 +1,20 @@
 # coding:utf-8
 
 import time
-
-import pymysql
 import requests
 from bs4 import BeautifulSoup
 import hashlib
 import time
 
-"""51job 青海地区招聘信息检索"""
+
+"""51job"""
 
 headers = {"Accept": "text/html,application/xhtml+xml,application/xml;",
            "Accept-Encoding": "gzip",
            "Accept-Language": "zh-CN,zh;q=0.8",
            "Referer": "https://www.baidu.com/",
            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"
-           }
+}
 
 
 def md5str(*args):
@@ -82,10 +81,6 @@ if __name__ == "__main__":
     pagecount = 0
     day = time.strftime('%Y-%m-%d', time.localtime(time.time()))
 
-    conn = pymysql.connect(host="127.0.0.1", user="root",
-                           password="123456",
-                           database="datas", charset="utf8")
-
     qh_search = "https://search.51job.com/list/320000,000000,0000,00,9,99,%2520,2,1.html?lang=c&stype=&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&providesalary=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare="
     r = requests.get(qh_search, headers=headers)
     if r.status_code == 200:
@@ -97,11 +92,11 @@ if __name__ == "__main__":
     else:
         print("request error code ", r.status_code)
 
+
     # pagecount
 
     print("spider 51job.com city:青海 共计页数：", pagecount)
-    insert_sql = "insert into t_spider_jobs(kid,zwmc,zwmc_url,gsmc,gsmc_url,zwyx,zwyx_s,gzdd,time,zwms)" \
-                 " values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+    USERFILE = open("c:/weibo/qh-51job-" + day + ".csv", "a+", encoding='gbk')
     for i in range(pagecount):
         url = 'http://search.51job.com/list/320200,000000,0000,00,9,99,%2B,2,{0}.html?lang=c&stype=&postchannel=0000&workyear=99&cotype=99°reefrom=99&jobterm=99&companysize=99&providesalary=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare='.format(
             i + 1)
@@ -126,21 +121,12 @@ if __name__ == "__main__":
                 datestr = data.get_text()
                 kid = md5str(r_zwmc_url)
                 zwyx_s = zwyx_parse(r_zwyx)
+                line = kid + "," + datestr + "," + r_zwmc + "," + r_zwmc_url + "," + r_gsmc + "," + r_gsmc_url + "," + r_zwyx + "," + r_gzdd + "," + zwyx_s + "\r"
+                USERFILE.write(line)
 
-                insert_cursor = conn.cursor()
-                try:
-                    effect_row = insert_cursor.execute(
-                        insert_sql,
-                        (kid, r_zwmc, r_zwmc_url, r_gsmc, r_gsmc_url, r_zwyx, zwyx_s, r_gzdd, day, ""))
-                    print("insert row >", effect_row)
-                except Exception as err:
-                    print("insert row >", err)
-                finally:
-                    conn.commit()
-                    insert_cursor.close()
         else:
             print(url, "request error code ", r.status_code)
 
-            # USERFILE.flush()
-            # USERFILE.close()
+    # USERFILE.flush()
+    # USERFILE.close()
 print("it's complete")

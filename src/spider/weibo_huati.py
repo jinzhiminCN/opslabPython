@@ -9,14 +9,13 @@ import random
 import time
 import redis
 
-
-from apscheduler.schedulers.blocking import BlockingScheduler
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-sched = BlockingScheduler()
+from apscheduler.schedulers.blocking import BlockingScheduler
 
+
+sched = BlockingScheduler()
+loginname = "xxxx"
+password = "xxx"
 
 # 通过js获取页面元素
 js_script = """
@@ -129,61 +128,40 @@ def md5str(*args):
 @sched.scheduled_job('interval', minutes=30)
 def getSuperHuaTi():
     # 西宁交友 超级话题
-    jedis = redis.Redis(host='127.0.0.1', port=6379)
+    jedis = redis.Redis(host='10.232.14.216', port=6379, password="xwsptyapp")
 
-    # 超级话题
-    # 西宁分享 https://weibo.com/p/100808407c7d0d4dcd45b13cdc39a9c7ea56c7/super_index
-    # 西宁打听 https://weibo.com/p/10080899bfa5537669aa719ca0c2116f52458a/super_index
-    # 西宁情感 https://weibo.com/p/100808a96cbbe5419dad60e26fac1f87e343a1/super_index
-    # 西宁交友 https://weibo.com/p/1008086d597f546b905732fb52734a84d99311/super_index
+    driver.get('https://weibo.com/p/1008086d597f546b905732fb52734a84d99311/super_index')
+    driver.implicitly_wait(10)
 
-    chrome_options = webdriver.ChromeOptions()
-    #chrome_options.add_experimental_option("mobileEmulation", {"deviceName":"iPhone 8 Plus"})
-    #chrome_options.add_argument("--user-agent=iphone 6 plus")
-    #chrome_options.add_argument('--headless')
-    # chrome_options.add_argument('--disable-gpu')
-    # chromeOptions.add_argument("--proxy-server=http://202.20.16.82:10152")
-    chrome_options.add_argument('lang=zh_CN.UTF-8')
-    # chrome_options.add_argument('user-agent="' + USER_AGENT + '"')
-    driver = webdriver.Chrome(chrome_options=chrome_options)
+    scoll = 100
+    for i in range(10):
+        scoll += 120
+        driver.execute_script("window.scrollTo(0," + str(scoll) + ");")
+        time.sleep(round(random.random(), 1))
 
-
-
-    # arr = {"https://weibo.com/p/100808407c7d0d4dcd45b13cdc39a9c7ea56c7/super_index",
-    #        "https://weibo.com/p/10080899bfa5537669aa719ca0c2116f52458a/super_index",
-    #        "https://weibo.com/p/100808a96cbbe5419dad60e26fac1f87e343a1/super_index",
-    #        "https://weibo.com/p/1008086d597f546b905732fb52734a84d99311/super_index"}
-    arr = {"https://weibo.com/p/100808407c7d0d4dcd45b13cdc39a9c7ea56c7/super_index"}
-    for ht in arr:
-        driver.get(ht)
-        try:
-            WebDriverWait(driver, 60).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "WB_frame_c"))
-            )
-            scoll = 100
-            ISDO = True
-            while ISDO:
-                scoll += 100
-                driver.execute_script("window.scrollTo(0," + str(scoll) + ");")
-                time.sleep(round(random.random(), 1))
-                if EC.presence_of_element_located((By.CLASS_NAME, "W_pages")):
-                    ISDO = False
-
-            weibo = driver.execute_script(js_script)
-            for wb in weibo.get('weibo_list'):
-                if wb['mid']:
-                    jedis.set("WEIBO#" + wb['mid'], json.dumps(wb, ensure_ascii=False))
-            for us in weibo.get('user_list'):
-                if us['userName']:
-                    redisKey = "WBUSER#" + md5str(us['userName'])
-                    jedis.set(redisKey, json.dumps(us, ensure_ascii=False))
-        except Exception as e:
-            print(e)
-
+    weibo = driver.execute_script(js_script)
+    for wb in weibo.get('weibo_list'):
+        if wb['mid']:
+            jedis.set("WEIBO#" + wb['mid'], json.dumps(wb, ensure_ascii=False))
+    for us in weibo.get('user_list'):
+        if us['userName']:
+            redisKey = "WBUSER#" + md5str(us['userName'])
+            jedis.set(redisKey, json.dumps(us, ensure_ascii=False))
 
 
 if __name__ == "__main__":
-    #sched.start()
-    getSuperHuaTi()
+    global driver
+    # mobile_emulation = {"deviceName":"iPhone 8 Plus"}
+    chrome_options = webdriver.ChromeOptions()
+    #chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
+    #chrome_options.add_argument("--user-agent=iphone 6 plus")
+    chrome_options.add_argument('--headless')
+    # chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('lang=zh_CN.UTF-8')
+    # chrome_options.add_argument('user-agent="' + USER_AGENT + '"')
+    driver = webdriver.Chrome(chrome_options=chrome_options)
+    driver.maximize_window()
+    #getSuperHuaTi()
+    sched.start()
 
 

@@ -155,7 +155,7 @@ def daqinghaiwang():
 
     weibo = driver.execute_script(js_script)
     for wb in weibo.get('weibo_list'):
-        jedis.set("WEIBO#" + wb['mid'], json.dumps(wb, ensure_ascii=False),ex=2*3600)
+        jedis.set("WEIBO#" + wb['mid'], json.dumps(wb, ensure_ascii=False))
     for us in weibo.get('user_list'):
         driver.get('https:' + us['userInfo'])
         driver.implicitly_wait(3)

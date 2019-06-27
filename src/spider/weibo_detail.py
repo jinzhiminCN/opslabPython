@@ -61,8 +61,7 @@ function unique1(array){
   }
   return n;
 }
-var result = {"text":textContent(document.getElementsByClassName("weibo-text")[0]),"user":unique1(userlist)};
-return result;
+return unique1(userlist);
 """
 
 js_userid = """
