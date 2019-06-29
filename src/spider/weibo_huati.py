@@ -19,7 +19,6 @@ password = "xxx"
 
 # 通过js获取页面元素
 js_script = """
-//提交超级话题页面的微博已经用户信息
 function dateFtt(fmt,date) {
  var o = {
  "M+" : date.getMonth()+1,
