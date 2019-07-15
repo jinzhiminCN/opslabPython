@@ -8,7 +8,6 @@ import threading
 import urllib
 
 import redis
-import requests
 import itchat
 from apscheduler.schedulers.blocking import BlockingScheduler
 
@@ -27,37 +26,10 @@ sched = BlockingScheduler()
 
 
 def get_message(message, userid):
-    """图灵聊天机器人"""
-    req = {
-        "perception": {
-            "inputText":
-                {
-                    "text": message
-                },
-
-            "selfInfo":
-                {
-                    "location":
-                        {
-                            "city": "西宁",
-                            "province": "青海省",
-                            "street": "夏都路"
-                        }
-                }
-        },
-        "userInfo": {
-            "apiKey": 'd581d2e107f34ad3b589951a22ba6bff',
-            "userId": md5str(userid)
-        }
-    }
-    req = json.dumps(req).encode('utf8')
-    http_post = urllib.request.Request("http://openapi.tuling123.com/openapi/api/v2",
-                                       data=req, headers={'content-type': 'application/json'})
-    response = urllib.request.urlopen(http_post)
-    response_str = response.read().decode('utf8')
-    response_dic = json.loads(response_str)
-    results_text = response_dic['results'][0]['values']['text']
-    return results_text
+    """聊天处理"""
+    print("reveived message form %s text: %s" % (userid,json.dumps(message)))
+    result = ""
+    itchat.send(result, userid)
 
 
 def md5str(*args):
@@ -68,34 +40,7 @@ def md5str(*args):
     return m.hexdigest()
 
 
-def send_one_group(msg, g_name):
-    """
-    给某个组发送消息
-    :param msg:
-    :param g_name:
-    :return:
-    """
-    rooms = itchat.search_chatrooms(g_name)
-    if rooms is not None:
-        user_name = rooms[0]['UserName']
-        itchat.send(msg, toUserName=user_name)
-    else:
-        print("None group found")
 
-
-def send_all_group(msg):
-    """
-    给所有组发送消息
-    :param msg:
-    :return:
-    """
-    rooms = itchat.get_chatrooms(update=True)
-    if rooms is not None:
-        for r in rooms:
-            user_name = r['UserName']
-            itchat.send(msg, toUserName=user_name)
-        else:
-            print("None group found")
 
 
 def send_one_person(msg, p_name):
@@ -141,9 +86,6 @@ def send_all_person(msg):
 # FRIENDS   好友邀请    添加好友所需参数
 # Useless   无用信息    ‘UselessMsg'
 
-
-
-
 @itchat.msg_register(['Map', 'Card', 'Note', 'Sharing', "Useless"])
 def ignore_msg(msg):
     """覆盖原有的消息回复，设置未忽略"""
@@ -153,9 +95,8 @@ def ignore_msg(msg):
 @itchat.msg_register(['Text'])
 def text_reply(msg):
     """回复文本消息"""
-    print("reveived message text: %s" % json.dumps(msg))
-    result = get_message(msg['Text'], msg['FromUserName'])
-    itchat.send(result, msg['FromUserName'])
+    get_message(msg['Text'], msg['FromUserName'])
+
 
 
 @itchat.msg_register(['Picture', 'Recording', 'Attachment', 'Video'])

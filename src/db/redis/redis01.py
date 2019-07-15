@@ -19,10 +19,10 @@ userino = {'userInfo': '//weibo.com/n/%E5%95%8A%E5%96%8F%E5%AD%A6%E5%BC%9F?from=
 rediskey = md5str(userino["userName"])
 jedis.set(rediskey,json.dumps(userino, ensure_ascii=False))
 
-ss = jedis.get(rediskey+'1111')
+ss = jedis.get(rediskey)
 if ss:
     print("===>")
 else:
     print("...")
-uu = json.loads()
+uu = json.loads(ss)
 print(uu)
