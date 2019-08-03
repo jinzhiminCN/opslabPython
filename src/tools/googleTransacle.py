@@ -9,5 +9,5 @@ translator = Translator(service_urls=[
     'translate.google.cn'
 ])
 
-trans_line = translator.translate("hello world", dest='zh-CN').text
+trans_line = translator.translate("class", dest='zh-CN').text
 print(trans_line)

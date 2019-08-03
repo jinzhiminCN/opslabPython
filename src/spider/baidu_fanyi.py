@@ -34,10 +34,11 @@ if(trans){
         'ty':trans.find(".synonym-item").find("div[class='para-syn']").text(),
         'cz':trans.find(".ras-item").find("div[class='ras-title']").text()
     };
-    return obj;
-
+    return JSON.stringify(obj);
+}
 return "Error";
 """
+
 
 def is_exists_element(webdriver, selector):
     """判断元素是否存在"""
@@ -52,28 +53,30 @@ if __name__ == "__main__":
     """由于完整的信息只有在PC端浏览器才能动态展现,因此采用selenium + chrome方式"""
     chrome_options = webdriver.ChromeOptions()
     # chrome_options.add_argument('--headless')
-    # chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('--disable-gpu')
     # chrome_options.add_argument('lang=zh_CN.UTF-8')
     # chrome_options.add_argument('user-agent="' + USER_AGENT + '"')
     driver = webdriver.Chrome(chrome_options=chrome_options)
     driver.maximize_window()
     driver.implicitly_wait(10)
     driver.get('https://fanyi.baidu.com/')
-    # driver.find_element_by_id("loginname").clear()
-    # driver.find_element_by_id("loginname").send_keys(loginname)
-    # driver.find_element_by_name("password").send_keys(password)
-    # driver.find_element_by_css_selector('.btn_32px').click()
-    time.sleep(5)
 
-    driver.get('https://fanyi.baidu.com/#en/zh/resolution')
-    driver.implicitly_wait(10)
-    while True:
-        if is_exists_element(driver,".dictionary-comment"):
-            trans = driver.execute_script(js_script)
-            if(trans):
-                print("翻译结果",trans)
-        else:
+
+    WEIBOFILE = open("C:/Users/Administrator/Desktop/weibo_111.txt", "a", encoding='utf_8')
+    with open("C:/Users/Administrator/Desktop/weibo_daqinghai.txt", 'r', encoding='UTF-8') as ff:
+        for line in ff.readlines():
+            word = line.split(",")[0].strip()
+            print("trans :", word)
+            driver.get('https://fanyi.baidu.com/#en/zh/' + word)
             driver.implicitly_wait(10)
-    time.sleep(120)
+            while True:
+                if is_exists_element(driver, ".dictionary-comment"):
+                    trans = driver.execute_script(js_script)
+                    if (trans):
+                        WEIBOFILE.write(word + "=>" + trans + "\n")
+
+                    break
+
+
 
 
