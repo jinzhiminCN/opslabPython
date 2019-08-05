@@ -23,7 +23,7 @@ def getWordRoot(word):
     try:
         xpath = "//div[@id='article']/h2"
         qh_search = "https://www.youdict.com/root/search?wd="+word
-        r = requests.get(qh_search, headers=headers)
+        r = requests.get(qh_search, headers=headers,timeout=5)
         if r.status_code == 200:
             # 使用lxml转换为html格式的数据
             html = etree.HTML(r.content.decode("UTF-8"))
@@ -36,7 +36,8 @@ def getWordRoot(word):
             return wordRoots
         else:
             time.sleep(60)
-            return getWordRoot(word)
+            return "Error"
+            #return getWordRoot(word)
     except Exception as e:
         print(e)
         time.sleep(60)
@@ -51,6 +52,9 @@ if __name__ == '__main__':
     df = pd.read_excel("C:\\Users\\Administrator\\Desktop\\worden.xlsx")
     allData = pd.DataFrame(df)
     for index, row in allData.iterrows():
+        if index < 2083:
+            continue
+
         word = str(row['英语词汇(英语)'])
         dst = str(allData.loc[index, '词根词缀'])
         if len(word) > 4:
