@@ -2,10 +2,10 @@
 # coding=UTF-8
 # version:python3.x
 
-import pymysql
-import logging
-import pandas as pd
 import re
+import logging
+import pymysql
+import pandas as pd
 
 logging.basicConfig(
     level=logging.ERROR,
@@ -19,7 +19,6 @@ def contains(strs,lst):
         if l:
             if l in strs:
                 return True
-
     return False
 
 

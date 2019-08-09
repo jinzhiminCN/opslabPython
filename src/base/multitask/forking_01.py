@@ -1,9 +1,6 @@
-
-# encoding:UTF-8
-
-#
-# First fork example
-#
+#! /usr/bin/python
+# coding=UTF-8
+# version:python3.x
 
 import os
 import time
