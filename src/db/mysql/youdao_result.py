@@ -14,7 +14,8 @@ logging.basicConfig(
     filemode="a",
 )
 
-def contains(strs,lst):
+
+def contains(strs, lst):
     for l in lst:
         if l:
             if l in strs:
@@ -33,30 +34,32 @@ if __name__ == "__main__":
             charset="utf8",
         )
 
-        with open("C:\\data\\worden_yd.txt","r",encoding="UTF-8") as fs:
+        file = "C:\\Users\\Administrator\\Desktop\\worden_yd.txt"
+        update = "update t_enword_info set duanyu = '%s'  where word='%s'"
+        with open(file, "r", encoding="UTF-8") as fs:
             for line in fs.readlines():
                 tt = line.split("===>")
                 word = tt[0]
                 worddict = json.loads(tt[1])
 
                 if worddict and len(worddict) > 0:
-                    fanyi = worddict['fanyi']
-                    fushu = worddict['fushu']
-                    duany = worddict['duany']
-                    liju = str(worddict['liju']).replace("\n","")
+                    fanyi = worddict["fanyi"]
+                    fushu = worddict["fushu"]
+                    duany = worddict["duany"]
+                    liju = str(worddict["liju"]).replace("\n", "")
 
-                    if liju:
-                        print(word)
-                        update_sql = "update t_enword_info set example += '%s' where word='%s'" %( duany,word)
+                    if duany:
+                        print(word, duany)
+                        update_sql = update % (duany, word)
+                        print(update_sql)
                         try:
                             mycur = conn.cursor()
                             mycur.execute(update_sql)
                             conn.commit()
                         except Exception as es:
-                            logging.error("InsertError:"+update_sql)
+                            logging.error("InsertError:" + update_sql)
 
-                word =''
-                wordRoot=''        
-                  
+                word = ""
+                wordRoot = ""
     except Exception as e:
-        print(e)
+        logging.error("ConnectError:"+e)
